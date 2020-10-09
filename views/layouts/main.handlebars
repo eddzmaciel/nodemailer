@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Title Page</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body class="container m-5">
+    <h1 class="text-center">Hello World -- {{msg}}</h1>
+
+    <form action="send" method="POST" class="form-horizontal" role="form">
+        <div class="form-group">
+            <legend>Form title</legend>
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlInput1">subject</label>
+            <input type="text" class="form-control" id="subject" name="subject" value="subject example">
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlInput1">To</label>
+            <input type="email" class="form-control" id="to" name="to" placeholder="name@example.com"
+                value="tayde997@gmail.com">
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlInput1">cc</label>
+            <input type="email" class="form-control" id="cc" name="cc" placeholder="name@example.com"
+                value="eddz-maciel@hotmail.com">
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlInput1">comments</label>
+            <textarea type="text" ctype="email" class="form-control" id="comments" name="comments" cols="30" rows="10"
+                value="comments example......"></textarea>
+        </div>
+
+
+
+        <div class="form-group">
+            <div class="col-sm-10 col-sm-offset-2">
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+        </div>
+    </form>
+
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Bootstrap JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+
+</html>

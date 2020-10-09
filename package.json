@@ -1,0 +1,30 @@
+{
+  "name": "nodemailer-xample",
+  "version": "1.0.0",
+  "description": "node mailer example",
+  "main": "app.js",
+  "scripts": {
+    "test": "dev",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eddzmaciel/nodemailer.git"
+  },
+  "keywords": [
+    "nodejs",
+    "express"
+  ],
+  "author": "eddzmaciel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eddzmaciel/nodemailer/issues"
+  },
+  "homepage": "https://github.com/eddzmaciel/nodemailer#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.1.0",
+    "nodemailer": "^6.4.13"
+  }
+}
